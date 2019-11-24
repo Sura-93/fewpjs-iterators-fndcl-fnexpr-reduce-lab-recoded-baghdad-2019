@@ -5,4 +5,4 @@ let totalBatteries  = 0;
 
 batteryBatches.reduce(function(totalBatteries, element){
   
-   return totalBatteries += element},0);
+   return totalBatteries + element},0);
